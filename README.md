@@ -1,3 +1,7 @@
+# Pocketwise - Tech Stack
+
+React, MongoDB, Node.js
+
 # Pocketwise - Synopsis
 
 ### Introduction:
