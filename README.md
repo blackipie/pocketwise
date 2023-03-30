@@ -1,8 +1,8 @@
-# Mini Project - Pocketwise
+# Pocketwise
 
+**Introduction:**
 <div>
-Introduction:
-<br>
+<br><br>
 Pocketwise is a comprehensive money management application that helps individuals,
 groups, and families keep track of their income, expenses, and debts. With its user-friendly
 interface and intuitive features, Pocketwise simplifies financial management, saving time and
