@@ -1,6 +1,13 @@
-# Pocketwise - Tech Stack
+# Pocketwise - Tools & Tech
 
-React, MongoDB, Node.js
+<p>
+<img src="https://img.shields.io/badge/MERN-674fff?style=for-the-badge&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/Next.Js-white?style=for-the-badge&logo=next.js&logoColor=black" />
+<img src="https://img.shields.io/badge/React Native-blue?style=for-the-badge&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/Vscode-0062ff?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+<p>
 
 # Pocketwise - Synopsis
 
