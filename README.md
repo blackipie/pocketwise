@@ -46,7 +46,7 @@ evaluates the technical, financial, and operational feasibility of the project. 
 study aims to determine whether the proposed system will be useful and profitable for the
 organization.
 
-#### Operational Feasibility:
+Operational Feasibility:
 
 •	Pocketwise is designed with user-friendly interface for ease of use by anyone, regardless of technical background.
 
