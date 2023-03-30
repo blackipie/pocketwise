@@ -1,8 +1,8 @@
-# Pocketwise
+# Pocketwise - Synopsis
 
 ### Introduction:
 <div>
-<br>
+
 Pocketwise is a comprehensive money management application that helps individuals,
 groups, and families keep track of their income, expenses, and debts. With its user-friendly
 interface and intuitive features, Pocketwise simplifies financial management, saving time and
@@ -185,7 +185,7 @@ make a significant impact on financial literacy and management.
 Here are some of the software and hardware requirements for the development of the
 Pocketwise project:
 
-##### Software:
+#### Software:
 
 •	Text editor or Integrated Development Environment (IDE) such as Visual Studio
 Code, Atom, or WebStorm
@@ -196,7 +196,7 @@ Code, Atom, or WebStorm
 •	Firebase Cloud Messaging for push notifications
 •	Git and GitHub for version control and collaboration
 
-##### Hardware:
+#### Hardware:
 
 •	A computer or laptop with at least 8 GB of RAM and a modern processor
 •	Sufficient storage space to install the required software and store the project files
@@ -207,36 +207,60 @@ Code, Atom, or WebStorm
 ### Bibliography:
 
 [1]  Zhang, X., & Tang, J. (2017). A Design of Personal Finance Management Application for College Students. In 2017 IEEE International Conference on Computational Science and Engineering (CSE) and IEEE International Conference on Embedded and Ubiquitous Computing (EUC) (pp. 544-547). IEEE.
+
 [2]  Ali, H. M., & Othman, M. (2016). Mobile personal finance management system using hybrid recommender approach. Journal of Computational and Theoretical Nanoscience, 13(2), 1198-1206.
+
 [3]  Liao, Y. J., & Hsieh, C. W. (2018). Personal finance management mobile app with chatbot service. In International Conference on Human-Computer Interaction (pp. 383-394). Springer, Cham.
+
 [4]  Choi, Y., & Lee, J. H. (2019). The effects of mobile personal finance management on the financial behavior and satisfaction of young adults. Sustainability, 11(8), 2331.
+
 [5]  Tenev, S., & Baesens, B. (2017). Personal financial management applications: A benchmarking study. Decision Support Systems, 96, 1-15.
+
 [6]  Lim, S., & Yoon, C. (2017). Personal finance management mobile application using gamification. Journal of the Korean Society of Computer and Information, 22(7), 59-67
+
 [7]  Kim, J., & Park, Y. (2021). Development of a mobile personal finance management application using gamification. Journal of the Korea Society of Computer and Information, 26(1), 71-79.
+
 [8]  Lee, S., & Kim, Y. (2021). The effects of financial management education with mobile personal finance management application on college students' financial capability and financial behaviors. Journal of Asian Finance, Economics, and Business, 8(4), 735-746.
+
 [9]  Cho, B., & Cho, Y. (2016). A mobile app for expense tracking and financial planning.
 In 2016 18th International Conference on Advanced Communication Technology (ICACT) (pp. 187-191). IEEE.
+
 [10]  Raza, S., & Rahman, M. (2017). Mobile personal finance management: Current state
 and future challenges. In 2017 IEEE Conference on e-Learning, e-Management and e-Services (IC3e) (pp. 101-105). IEEE.
+
 [11]  Shukla, M., & Shukla, A. (2018). Smart mobile application for personal finance
 management. In 2018 9th International Conference on Computing, Communication
 and Networking Technologies (ICCCNT) (pp. 1-6). IEEE.
+
 [12]  Xu, D., & Xu, J. (2016). Design and implementation of personal finance management
 application for mobile devices. In 2016 13th International Conference on Service
 Systems and Service Management (ICSSSM) (pp. 1-5). IEEE.
+
 [13]  Bae, S., & Lee, J. (2019). Personal finance management for youth: Design and
 evaluation of a mobile application. International Journal of Human-Computer
 Interaction, 35(6), 518-527.
+
 [14]  Ogbuji, C. O., & Eze, C. U. (2019). Development of a Mobile Application for Personal Financial Management. International Journal of Innovative Technology and Interdisciplinary Sciences, 2(2), 23-29.
+
 [15]  Okorie, C. C., Ezema, I. C., & Ekumankama, C. (2020). Development of Mobile App for Personal Financial Management. International Journal of Innovative Technology and Exploring Engineering (IJITEE), 9(2), 125-129.
+
 [16]  Park, J. H., Jung, Y. H., & Kim, K. H. (2017). A Personal Finance Management Mobile Application for University Students. In International Conference on Industrial Engineering and Engineering Management (pp. 166-171). Springer.
+
 [17]  Wulandari, A. S., & Santoso, H. B. (2020). Development of a Mobile Application for Personal Financial Management: A Study of Design and Functionality. Journal of Engineering and Applied Sciences, 15(4), 928-932.
+
 [18]  Caianiello, P., Cutillo, L., & Santone, A. (2018). Enhancing Personal Finance Management through Mobile App Gamification: A Conceptual Framework. International Journal of Information Management, 38(1), 197-205.
+
 [19]  Chatterjee, P., & Chakrabarti, A. (2019). Personal Finance Management Using Mobile Application: A Study of Awareness, Satisfaction and Behavioural Intention among Working Professionals. International Journal of Bank Marketing, 37(5), 1095-1113.
+
 [20]  Chukwudi, I. O., & Owoseni, O. A. (2020). Personal Financial Management System: A Mobile Application Development. International Journal of Advanced Research in Computer Science and Software Engineering, 10(2), 333-340.
+
 [21]  Hoang, D. T. (2020). Developing a Mobile App for Personal Expense Tracking and Management. International Journal of Advanced Computer Science and Applications, 11(3), 172-178.
+
 [22]  React Native official documentation - https://reactnative.dev/docs/getting-started
+
 [23]  Node.js official documentation - https://nodejs.org/en/docs/
+
 [24]  MongoDB official documentation - https://docs.mongodb.com/
+
 [25]  Firebase Cloud Messaging official documentation -
 https://firebase.google.com/docs/cloud-messaging
