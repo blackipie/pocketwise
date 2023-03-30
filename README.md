@@ -49,15 +49,25 @@ organization.
 #### Operational Feasibility:
 
 •	Pocketwise is designed with user-friendly interface for ease of use by anyone, regardless of technical background.
+
 •	The app is built to be scalable and capable of handling increasing number of users.
+
 •	It has been tested extensively to ensure that it is reliable and functional in various scenarios.
+
 Technical Feasibility:
+
 •	Pocketwise uses modern technologies such as React, Node.js, and MongoDB.
+
 •	The app is built to support multiple platforms such as Android and iOS.
+
 •	It utilizes Firebase Cloud Messaging for real-time notifications, ensuring seamless communication between the app and users.
+
 Economic Feasibility:
+
 •	Pocketwise is a cost-effective solution for managing personal and group finances.
+
 •	The app is available for free on app stores and does not require any subscription fees.
+
 •	The only costs associated with the app are the expenses related to maintaining and upgrading the servers to support increasing user base.
 
 #### Need and significance:
@@ -80,10 +90,15 @@ and groups, leading to a more stable and financially secure society.
 ### Objective:
 
 •	To provide a convenient and easy-to-use mobile application for personal finance management.
+
 •	To allow users to track their expenses and income in an efficient manner through the My Pockets section.
+
 •	To enable users living in the same rented room to calculate and manage their group expenses through the Group Expense section.
+
 •	To provide a Helping Pocket section that allows users to pool money together and manage it efficiently for emergencies or planned expenses.
+
 •	To support multiple languages including English, Hindi, and Bengali for better accessibility.
+
 •	To ensure data security and reliability through the use of Firebase Cloud Messaging and MongoDB.
 
 
@@ -189,17 +204,26 @@ Pocketwise project:
 
 •	Text editor or Integrated Development Environment (IDE) such as Visual Studio
 Code, Atom, or WebStorm
+
 •	Node.js and npm (Node Package Manager) for server-side development using Node.js
+
 •	React Native and its dependencies for mobile application development
+
 •	React (Next.js) for its Web version.
+
 •	MongoDB or any other suitable NoSQL database for data storage
+
 •	Firebase Cloud Messaging for push notifications
+
 •	Git and GitHub for version control and collaboration
+
 
 #### Hardware:
 
 •	A computer or laptop with at least 8 GB of RAM and a modern processor
+
 •	Sufficient storage space to install the required software and store the project files
+
 •	An Android or iOS mobile device for testing and debugging the mobile app
 
 
