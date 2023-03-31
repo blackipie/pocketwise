@@ -11,6 +11,8 @@
 
 # Pocketwise - Synopsis
 
+## Design and Development of Pocketwise Application
+
 ### Introduction:
 <div>
 
