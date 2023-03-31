@@ -11,7 +11,7 @@
 
 # Pocketwise - Synopsis
 
-## Design and Development of Pocketwise Application
+## Title: Design and Development of Pocketwise Application
 
 ### Introduction:
 <div>
