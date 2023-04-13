@@ -209,7 +209,7 @@ their finances and expenses efficiently. It is anticipated that Pocketwise will 
 adopted by individuals and groups as a tool to manage their finances effectively, and thus,
 make a significant impact on financial literacy and management.
 
-#### Facilities required for proposed work:
+### Facilities required for proposed work:
 Here are some of the software and hardware requirements for the development of the
 Pocketwise project:
 
