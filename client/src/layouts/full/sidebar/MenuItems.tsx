@@ -1,5 +1,6 @@
+import { Divider } from '@mui/material';
 import {
-  IconAperture, IconCopy, IconEye, IconLayoutDashboard, IconLogin, IconMoodHappy,  IconUserPlus, IconWallet
+  IconAperture, IconBoxMultiple, IconLayoutDashboard, IconLogin, IconMoneybag, IconMoodHappy,  IconUserPlus, IconWallet
 } from '@tabler/icons-react';
 
 import { uniqueId } from 'lodash';
@@ -8,6 +9,7 @@ const Menuitems = [
   {
     navlabel: true,
     subheader: 'Home',
+    id: uniqueId(),
   },
 
   {
@@ -20,43 +22,34 @@ const Menuitems = [
     id: uniqueId(),
     title: 'My Pocket',
     icon: IconWallet,
-    href: '/',
+    href: '/my-pocket',
+  },
+
+
+  {
+    id: uniqueId(),
+    title: 'Shared Expense',
+    icon: IconBoxMultiple,
+    href: '/shared-expense',
+  },
+
+
+  {
+    id: uniqueId(),
+    title: 'Helping Pocket',
+    icon: IconMoneybag,
+    href: '/helping-pocket',
   },
   {
     navlabel: true,
-    subheader: 'Shared Expense',
-  },
-  {
-    id: uniqueId(),
-    title: 'View',
-    icon: IconEye,
-    href: '/',
-  },
-  {
-    id: uniqueId(),
-    title: 'Manage',
-    icon: IconCopy,
-    href: '/',
-  },
-  {
-    navlabel: true,
-    subheader: 'Helping Pocket',
-  },
-  {
-    id: uniqueId(),
-    title: 'View',
-    icon: IconEye,
-    href: '/',
-  },
-  {
-    id: uniqueId(),
-    title: 'Manage',
-    icon: IconCopy,
-    href: '/',
-  },
-  {
-    navlabel: true,
-    subheader: 'Auth',
+     id: uniqueId(),
+    subheader: <Divider sx={{
+      borderWidth:'1px',
+      borderColor: "white",
+      marginBottom:3
+      
+    }} />,
+
   },
   {
     id: uniqueId(),
@@ -70,22 +63,22 @@ const Menuitems = [
     icon: IconUserPlus,
     href: '/authentication/register',
   },
-  {
-    navlabel: true,
-    subheader: 'Extra',
-  },
-  {
-    id: uniqueId(),
-    title: 'Icons',
-    icon: IconMoodHappy,
-    href: '/icons',
-  },
-  {
-    id: uniqueId(),
-    title: 'Sample Page',
-    icon: IconAperture,
-    href: '/sample-page',
-  },
+  // {
+  //   navlabel: true,
+  //   subheader: 'Extra',
+  // },
+  // {
+  //   id: uniqueId(),
+  //   title: 'Icons',
+  //   icon: IconMoodHappy,
+  //   href: '/icons',
+  // },
+  // {
+  //   id: uniqueId(),
+  //   title: 'Sample Page',
+  //   icon: IconAperture,
+  //   href: '/sample-page',
+  // },
 ];
 
 export default Menuitems;

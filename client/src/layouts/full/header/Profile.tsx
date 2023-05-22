@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
+
 import Link from "next/link";
 import {
   Avatar,
@@ -38,7 +39,7 @@ const Profile = () => {
         onClick={handleClick2}
       >
         <Avatar
-          src="/images/profile/user-1.jpg"
+          src="/images/profile/shafin.jpg"
           alt="image"
           sx={{
             width: 35,
@@ -63,24 +64,39 @@ const Profile = () => {
           },
         }}
       >
-        <MenuItem>
-          <ListItemIcon>
-            <IconUser width={20} />
-          </ListItemIcon>
-          <ListItemText>My Profile</ListItemText>
-        </MenuItem>
-        <MenuItem>
+        <Link href={'/profile/my-profile'} className="linkstyle">   <MenuItem>    
+            <ListItemIcon>
+              <IconUser width={20} />
+            </ListItemIcon>
+            <ListItemText>
+              My Profile
+            </ListItemText>
+        
+        </MenuItem>  </Link>
+
+
+        <Link href={'/profile/my-profile'} className="linkstyle">
+          <MenuItem>
           <ListItemIcon>
             <IconMail width={20} />
           </ListItemIcon>
-          <ListItemText>My Account</ListItemText>
-        </MenuItem>
+          <ListItemText>
+            Messages
+          </ListItemText>
+          </MenuItem></Link>
+        
+
+
+        <Link href={'/profile/my-profile'} className="linkstyle">
         <MenuItem>
-          <ListItemIcon>
-            <IconListCheck width={20} />
-          </ListItemIcon>
-          <ListItemText>My Tasks</ListItemText>
-        </MenuItem>
+ 
+            <ListItemIcon>
+              <IconListCheck width={20} />
+            </ListItemIcon>
+            <ListItemText>
+              My Tasks
+            </ListItemText>
+        </MenuItem></Link>
         <Box mt={1} py={1} px={2}>
           <Button
             href="/authentication/login"

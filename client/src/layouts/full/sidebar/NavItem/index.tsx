@@ -46,12 +46,14 @@ const NavItem = ({ item, level, pathDirect, onClick }: ItemType) => {
       color: theme.palette.text.secondary,
       paddingLeft: "10px",
       "&:hover": {
-        backgroundColor: theme.palette.primary.light,
+        // backgroundColor: theme.palette.primary.light,
+        background:"linear-gradient(143deg, rgba(255,255,255,1) 0%, rgba(241,240,255,1) 50%, rgba(238,241,255,1) 100%)",
         color: theme.palette.primary.main,
       },
       "&.Mui-selected": {
         color: "white",
-        backgroundColor: theme.palette.primary.main,
+        // backgroundColor: theme.palette.primary.main,
+        background: "linear-gradient(90deg, rgba(88,78,255,0.9652193641128326) 0%, rgba(108,91,255,0.8839868711156338) 48%, rgba(96,110,255,1) 100%)",
         "&:hover": {
           backgroundColor: theme.palette.primary.main,
           color: "white",
@@ -59,6 +61,8 @@ const NavItem = ({ item, level, pathDirect, onClick }: ItemType) => {
       },
     },
   }));
+
+
 
   return (
     <List component="div" disablePadding key={item.id}>
@@ -70,6 +74,9 @@ const NavItem = ({ item, level, pathDirect, onClick }: ItemType) => {
           selected={pathDirect === item.href}
           target={item.external ? "_blank" : ""}
           onClick={onClick}
+
+
+    
         >
           <ListItemIcon
             sx={{

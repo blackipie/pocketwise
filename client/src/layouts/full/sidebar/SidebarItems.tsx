@@ -11,17 +11,29 @@ const SidebarItems = ({toggleMobileSidebar}: any) => {
 
   return (
     <Box sx={{ px: 3 }}>
-      <List sx={{ pt: 0 }} className="sidebarNav" component="div">
-        {Menuitems.map((item) => {
+      <List  className="sidebarNav" component="div"
+               sx={{ 
+                pt: 0 }}
+      >
+        {Menuitems.map((item:any) => {
           // {/********SubHeader**********/}
           if (item.subheader) {
-            return <NavGroup item={item} key={item.subheader} />;
-
+            return(
+            <>
+            <NavGroup item={item} key={item.subheader} />
+              </>
+            )
             // {/********If Sub Menu**********/}
-            /* eslint no-else-return: "off" */
+            //  eslint no-else-return: "off" 
           } else {
             return (
-              <NavItem item={item} key={item.id} pathDirect={pathDirect}  onClick={toggleMobileSidebar}/>
+              <>
+              <NavItem item={item} key={item.id} pathDirect={pathDirect} onClick={toggleMobileSidebar} 
+              />
+
+
+</>
+
             );
           }
         })}

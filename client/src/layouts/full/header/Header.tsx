@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, AppBar, Toolbar, styled, Stack, IconButton, Badge, Button } from '@mui/material';
+import { Box, AppBar, Toolbar, styled, Stack, IconButton, Badge } from '@mui/material';
 import PropTypes from 'prop-types';
 
 // components
@@ -17,8 +17,10 @@ const Header = ({toggleMobileSidebar}: ItemType) => {
 
 
   const AppBarStyled = styled(AppBar)(({ theme }) => ({
-    boxShadow: 'none',
-    background: theme.palette.background.paper,
+    // boxShadow: 'none',
+    // background: theme.palette.background.paper,
+    background: "linear-gradient(143deg, rgba(237,240,255,0.9652193641128326) 0%, rgba(241,240,255,1) 50%, rgba(189,194,250,0.9344070391828606) 100%)",
+      boxShadow: "  rgba(50, 50, 93, 0.1) 0px 2px 5px -1px, rgba(0, 0, 0, 0.1) 0px 1px 3px -1px;",    
     justifyContent: 'center',
     backdropFilter: 'blur(4px)',
     [theme.breakpoints.up('lg')]: {

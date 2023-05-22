@@ -1,4 +1,4 @@
-import React from 'react';
+
 import {
     Typography, Box,
     Table,
@@ -13,50 +13,51 @@ import DashboardCard from '../../../src/components/shared/DashboardCard';
 const products = [
     {
         id: "1",
-        name: "Sunil Joshi",
-        post: "Web Designer",
-        pname: "Elite Admin",
-        priority: "Low",
+        name: "Shafin",
+        post: "Student",
+        pname: "Admin",
+        priority: "Rs. 2000",
         pbg: "primary.main",
         budget: "3.9",
     },
     {
         id: "2",
-        name: "Andrew McDownland",
-        post: "Project Manager",
-        pname: "Real Homes WP Theme",
-        priority: "Medium",
+        name: "Faruk",
+        post: "Student",
+        pname: "Invited",
+        priority: "Rs. 1500",
         pbg: "secondary.main",
         budget: "24.5",
     },
     {
         id: "3",
-        name: "Christopher Jamil",
-        post: "Project Manager",
-        pname: "MedicalPro WP Theme",
-        priority: "High",
+        name: "Alak Sen",
+        post: "Student",
+        pname: "invited",
+        priority: "Rs. 1000",
         pbg: "error.main",
         budget: "12.8",
     },
     {
         id: "4",
-        name: "Nirav Joshi",
-        post: "Frontend Engineer",
-        pname: "Hosting Press HTML",
-        priority: "Critical",
-        pbg: "success.main",
-        budget: "2.4",
+        name: "Baharul Islam",
+        post: "Student",
+        pname: "Invited",
+        priority: "Rs. 1000",
+        pbg: "error.main",
+        budget: "12.8",
     },
+
 ];
 
 
 const ProductPerformance = () => {
     return (
 
-        <DashboardCard title="Product Performance">
+        <DashboardCard title="Users">
             <Box sx={{ overflow: 'auto', width: { xs: '280px', sm: 'auto' } }}>
                 <Table
-                    aria-label="simple table"
+                    aria-label="users table"
                     sx={{
                         whiteSpace: "nowrap",
                         mt: 2
@@ -76,17 +77,17 @@ const ProductPerformance = () => {
                             </TableCell>
                             <TableCell>
                                 <Typography variant="subtitle2" fontWeight={600}>
-                                    Name
+                                    Position
                                 </Typography>
                             </TableCell>
                             <TableCell>
                                 <Typography variant="subtitle2" fontWeight={600}>
-                                    Priority
+                                    Total Expense
                                 </Typography>
                             </TableCell>
                             <TableCell align="right">
                                 <Typography variant="subtitle2" fontWeight={600}>
-                                    Budget
+                                    Money Added
                                 </Typography>
                             </TableCell>
                         </TableRow>
@@ -143,7 +144,7 @@ const ProductPerformance = () => {
                                     ></Chip>
                                 </TableCell>
                                 <TableCell align="right">
-                                    <Typography variant="h6">${product.budget}k</Typography>
+                                    <Typography variant="h6">{product.budget}k INR</Typography>
                                 </TableCell>
                             </TableRow>
                         ))}

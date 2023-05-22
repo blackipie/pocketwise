@@ -34,16 +34,16 @@ const Register2 = () => (
           justifyContent="center"
           alignItems="center"
         >
-          <Card elevation={9} sx={{ p: 4, zIndex: 1, width: '100%', maxWidth: '500px' }}>
-            <Box display="flex" alignItems="center" justifyContent="center">
-              <Logo />
-            </Box>
+          <Card elevation={9} sx={{ p: 2,m:1, zIndex: 1, width: '100%', maxWidth: '500px',    background: " linear-gradient(140deg, rgba(237,240,255,0.9652193641128326) 0%, rgba(241,240,255,1) 50%, rgba(189,194,250,0.9344070391828606) 100%)" }}>
+             <Box display="block" m={'auto'}  marginBottom={5} minWidth={'300px'} maxWidth={'300px'} paddingLeft={6} paddingRight={6} alignItems="center" justifyContent="center">
+                <Logo />
+              </Box>
             <AuthRegister
-              subtext={
-                <Typography variant="subtitle1" textAlign="center" color="textSecondary" mb={1}>
-                  Your Social Campaigns
-                </Typography>
-              }
+        //       subtext={
+        // <Typography variant="subtitle1"  textAlign="center" color="textSecondary" mb={1} mt={1}>
+        //            Pocketwise
+        //           </Typography>
+        //       }
               subtitle={
                 <Stack direction="row" justifyContent="center" spacing={1} mt={3}>
                   <Typography color="textSecondary" variant="h6" fontWeight="400">

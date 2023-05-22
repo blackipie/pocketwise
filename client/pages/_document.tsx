@@ -8,14 +8,16 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en" className={roboto.className}>
         <Head>
+
           {/* PWA primary color */}
           <meta name="theme-color" content={theme.palette.primary.main} />
-          <link rel="shortcut icon" href="/favicon.ico" />
+          <link rel="shortcut icon" href="/images/logos/logo.png" />
           <link
             href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
             rel="stylesheet"
           ></link>
-          <meta name="emotion-insertion-point" content="" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"/>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700;800;900&family=Glory:wght@600;700;800&family=Kanit:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Mitr:wght@200&family=Monoton&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:wght@600;700;800&family=Prompt:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:wght@900&family=Quicksand:wght@700&family=Ubuntu:ital,wght@0,500;0,700;1,500;1,700&family=Viga&display=swap" rel="stylesheet"/>
           {(this.props as any).emotionStyleTags}
         </Head>
         <body>
